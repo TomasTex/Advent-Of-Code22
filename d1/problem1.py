@@ -15,5 +15,4 @@ def read_input(filename: str) -> list:
         listOfElfs.sort(key=sum)
     return sum(listOfElfs[-1])
 
-
 print(read_input('input1.txt'))
